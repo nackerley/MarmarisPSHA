@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+    <sourceModel name="$SOURCEMODELNAME">
+
+        <simpleFaultSource id="$IDSOURCE" name="$SOURCENAME" tectonicRegion="$REGION">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+$TRACE
+                    </gml:posList>
+                </gml:LineString>
+                <dip>$DIP</dip>
+                <upperSeismoDepth>$MINDEPTH</upperSeismoDepth>
+                <lowerSeismoDepth>$MAXDEPTH</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>$SCALEREL</magScaleRel>
+            <ruptAspectRatio>$ASPECTRATIO</ruptAspectRatio>
+            <$MFD/>
+            <rake>$RAKE</rake>
+        </simpleFaultSource>
+
+    </sourceModel>
+</nrml>
