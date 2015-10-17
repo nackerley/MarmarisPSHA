@@ -36,6 +36,26 @@
             <rake>275.0</rake>
         </simpleFaultSource>
 
+        <simpleFaultSource id="TRCS394" name="Datca Horst North Boundary 1" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         27.653862  36.814250
+                         27.772547  36.818590
+                         27.891225  36.822930
+                         28.009910  36.827270
+                    </gml:posList>
+                </gml:LineString>
+                <dip>60.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
+            <rake>288.0</rake>
+        </simpleFaultSource>
+
         <simpleFaultSource id="TRCS391" name="Gokova Oren Fault Zone 1" tectonicRegion="Active Shallow Crust">
             <simpleFaultGeometry>
                 <gml:LineString>
@@ -56,26 +76,6 @@
             <ruptAspectRatio>2</ruptAspectRatio>
             <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
             <rake>304.0</rake>
-        </simpleFaultSource>
-
-        <simpleFaultSource id="TRCS394" name="Datca Horst North Boundary 1" tectonicRegion="Active Shallow Crust">
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                         27.653862  36.814250
-                         27.772547  36.818590
-                         27.891225  36.822930
-                         28.009910  36.827270
-                    </gml:posList>
-                </gml:LineString>
-                <dip>60.0</dip>
-                <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>13.0</lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>WC1994</magScaleRel>
-            <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
-            <rake>288.0</rake>
         </simpleFaultSource>
 
         <simpleFaultSource id="TRCS396" name="Gokova Transfer Fault" tectonicRegion="Active Shallow Crust">
@@ -311,25 +311,6 @@
             <rake>258.0</rake>
         </simpleFaultSource>
 
-        <simpleFaultSource id="TRCS293" name="Fethiye" tectonicRegion="Active Shallow Crust">
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                         29.344876  36.631044
-                         29.224301  36.617053
-                         29.088621  36.618744
-                    </gml:posList>
-                </gml:LineString>
-                <dip>50.0</dip>
-                <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>14.0</lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>WC1994</magScaleRel>
-            <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
-            <rake>270.0</rake>
-        </simpleFaultSource>
-
         <simpleFaultSource id="GRCS965" name="Kos" tectonicRegion="Active Shallow Crust">
             <simpleFaultGeometry>
                 <gml:LineString>
@@ -352,6 +333,25 @@
                 <dip>62.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
                 <lowerSeismoDepth>14.5</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
+            <rake>270.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="TRCS293" name="Fethiye" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         29.344876  36.631044
+                         29.224301  36.617053
+                         29.088621  36.618744
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>14.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>

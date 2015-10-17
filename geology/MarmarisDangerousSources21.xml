@@ -167,6 +167,27 @@
             <rake>260.0</rake>
         </simpleFaultSource>
 
+        <simpleFaultSource id="TRCS271" name="Golgelidag Horst West Boundary - Tavas" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         29.145049  37.612877
+                         29.076734  37.569184
+                         29.028499  37.480449
+                         28.926962  37.427156
+                         28.834061  37.364785
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
+            <rake>258.0</rake>
+        </simpleFaultSource>
+
         <simpleFaultSource id="TRCS322" name="Gediz Graben South Boundary" tectonicRegion="Active Shallow Crust">
             <simpleFaultGeometry>
                 <gml:LineString>
@@ -197,25 +218,33 @@
             <rake>290.0</rake>
         </simpleFaultSource>
 
-        <simpleFaultSource id="TRCS271" name="Golgelidag Horst West Boundary - Tavas" tectonicRegion="Active Shallow Crust">
+        <simpleFaultSource id="GRCS999" name="Lemnos" tectonicRegion="Active Shallow Crust">
             <simpleFaultGeometry>
                 <gml:LineString>
                     <gml:posList>
-                         29.145049  37.612877
-                         29.076734  37.569184
-                         29.028499  37.480449
-                         28.926962  37.427156
-                         28.834061  37.364785
+                         24.940260  39.670721
+                         25.061116  39.763400
+                         25.149304  39.831027
+                         25.201861  39.872005
+                         25.224841  39.892621
+                         25.247821  39.913236
+                         25.291155  39.943129
+                         25.312822  39.960137
+                         25.334489  39.977144
+                         25.366004  39.996729
+                         25.393581  40.010645
+                         25.421157  40.024560
+                         25.451359  40.042083
                     </gml:posList>
                 </gml:LineString>
-                <dip>50.0</dip>
+                <dip>82.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+                <lowerSeismoDepth>16.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
             <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
-            <rake>258.0</rake>
+            <rake>197.0</rake>
         </simpleFaultSource>
 
         <simpleFaultSource id="TRCS003" name="NAF - 1939 Earthquake" tectonicRegion="Active Shallow Crust">
@@ -269,35 +298,6 @@
             <ruptAspectRatio>2</ruptAspectRatio>
             <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
             <rake>181.0</rake>
-        </simpleFaultSource>
-
-        <simpleFaultSource id="GRCS999" name="Lemnos" tectonicRegion="Active Shallow Crust">
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                         24.940260  39.670721
-                         25.061116  39.763400
-                         25.149304  39.831027
-                         25.201861  39.872005
-                         25.224841  39.892621
-                         25.247821  39.913236
-                         25.291155  39.943129
-                         25.312822  39.960137
-                         25.334489  39.977144
-                         25.366004  39.996729
-                         25.393581  40.010645
-                         25.421157  40.024560
-                         25.451359  40.042083
-                    </gml:posList>
-                </gml:LineString>
-                <dip>82.0</dip>
-                <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>16.0</lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>WC1994</magScaleRel>
-            <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
-            <rake>197.0</rake>
         </simpleFaultSource>
 
         <simpleFaultSource id="TRCS393" name="Gokova Oren Fault Zone 3" tectonicRegion="Active Shallow Crust">
@@ -423,36 +423,25 @@
             <rake>100.0</rake>
         </simpleFaultSource>
 
-        <simpleFaultSource id="TRCS913" name="Ula-Oren" tectonicRegion="Active Shallow Crust">
+        <simpleFaultSource id="TRCS268" name="Golgelidag Horst East Boundary - Akalan" tectonicRegion="Active Shallow Crust">
             <simpleFaultGeometry>
                 <gml:LineString>
                     <gml:posList>
-                         27.391798  36.936121
-                         27.471934  36.951685
-                         27.529764  36.959467
-                         27.583464  36.962710
-                         27.641702  36.969429
-                         27.694344  36.976553
-                         27.742998  36.980656
-                         27.791652  36.984758
-                         27.884948  36.995077
-                         27.932145  37.000065
-                         27.979342  37.005052
-                         28.039246  37.010039
-                         28.099150  37.015026
-                         28.171762  37.023576
-                         28.244370  37.036400
-                         28.329690  37.049224
+                         29.142908  37.131253
+                         29.209874  37.193150
+                         29.277870  37.255998
+                         29.326503  37.329377
+                         29.362743  37.407170
                     </gml:posList>
                 </gml:LineString>
-                <dip>62.0</dip>
+                <dip>50.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>14.5</lowerSeismoDepth>
+                <lowerSeismoDepth>13.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
             <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
-            <rake>275.0</rake>
+            <rake>282.0</rake>
         </simpleFaultSource>
 
         <simpleFaultSource id="GRCS603" name="Kephallonia" tectonicRegion="Active Shallow Crust">
@@ -487,25 +476,36 @@
             <rake>160.0</rake>
         </simpleFaultSource>
 
-        <simpleFaultSource id="TRCS268" name="Golgelidag Horst East Boundary - Akalan" tectonicRegion="Active Shallow Crust">
+        <simpleFaultSource id="TRCS913" name="Ula-Oren" tectonicRegion="Active Shallow Crust">
             <simpleFaultGeometry>
                 <gml:LineString>
                     <gml:posList>
-                         29.142908  37.131253
-                         29.209874  37.193150
-                         29.277870  37.255998
-                         29.326503  37.329377
-                         29.362743  37.407170
+                         27.391798  36.936121
+                         27.471934  36.951685
+                         27.529764  36.959467
+                         27.583464  36.962710
+                         27.641702  36.969429
+                         27.694344  36.976553
+                         27.742998  36.980656
+                         27.791652  36.984758
+                         27.884948  36.995077
+                         27.932145  37.000065
+                         27.979342  37.005052
+                         28.039246  37.010039
+                         28.099150  37.015026
+                         28.171762  37.023576
+                         28.244370  37.036400
+                         28.329690  37.049224
                     </gml:posList>
                 </gml:LineString>
-                <dip>50.0</dip>
+                <dip>62.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+                <lowerSeismoDepth>14.5</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
             <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
-            <rake>282.0</rake>
+            <rake>275.0</rake>
         </simpleFaultSource>
 
         <simpleFaultSource id="TRCS023" name="NAF - Gemlik Bandirma" tectonicRegion="Active Shallow Crust">
@@ -533,6 +533,28 @@
             <ruptAspectRatio>2</ruptAspectRatio>
             <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
             <rake>197.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="TRCS001" name="NAF - 1949 Elmali Earthquake" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         41.130119  39.317799
+                         41.039101  39.344790
+                         40.920834  39.381564
+                         40.793456  39.385999
+                         40.666439  39.377363
+                         40.548075  39.414054
+                    </gml:posList>
+                </gml:LineString>
+                <dip>85.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>18.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
+            <rake>167.0</rake>
         </simpleFaultSource>
 
         <simpleFaultSource id="TRCS133" name="Bitlis Thrust Zone - Ergani Cungus" tectonicRegion="Active Shallow Crust">
@@ -568,28 +590,6 @@
             <ruptAspectRatio>2</ruptAspectRatio>
             <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
             <rake>67.0</rake>
-        </simpleFaultSource>
-
-        <simpleFaultSource id="TRCS001" name="NAF - 1949 Elmali Earthquake" tectonicRegion="Active Shallow Crust">
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                         41.130119  39.317799
-                         41.039101  39.344790
-                         40.920834  39.381564
-                         40.793456  39.385999
-                         40.666439  39.377363
-                         40.548075  39.414054
-                    </gml:posList>
-                </gml:LineString>
-                <dip>85.0</dip>
-                <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>18.0</lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>WC1994</magScaleRel>
-            <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
-            <rake>167.0</rake>
         </simpleFaultSource>
 
         <simpleFaultSource id="TRCS330" name="Buyuk Menderes Graben North Boundary 1" tectonicRegion="Active Shallow Crust">
