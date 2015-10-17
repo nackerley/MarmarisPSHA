@@ -67,6 +67,28 @@
             <rake>288.0</rake>
         </simpleFaultSource>
 
+        <simpleFaultSource id="TRCS391" name="Gokova Oren Fault Zone 1" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         28.482110  37.097988
+                         28.383736  37.065655
+                         28.269286  37.050946
+                         28.155027  37.035429
+                         28.041698  37.054831
+                         27.927657  37.038303
+                    </gml:posList>
+                </gml:LineString>
+                <dip>65.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
+            <rake>304.0</rake>
+        </simpleFaultSource>
+
         <simpleFaultSource id="TRCS006" name="NAF - 1943 Tosya Ladik" tectonicRegion="Active Shallow Crust">
             <simpleFaultGeometry>
                 <gml:LineString>
@@ -113,28 +135,6 @@
             <ruptAspectRatio>2</ruptAspectRatio>
             <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
             <rake>180.0</rake>
-        </simpleFaultSource>
-
-        <simpleFaultSource id="TRCS391" name="Gokova Oren Fault Zone 1" tectonicRegion="Active Shallow Crust">
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                         28.482110  37.097988
-                         28.383736  37.065655
-                         28.269286  37.050946
-                         28.155027  37.035429
-                         28.041698  37.054831
-                         27.927657  37.038303
-                    </gml:posList>
-                </gml:LineString>
-                <dip>65.0</dip>
-                <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>13.0</lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>WC1994</magScaleRel>
-            <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.0"/>
-            <rake>304.0</rake>
         </simpleFaultSource>
 
         <simpleFaultSource id="TRCS331" name="Buyuk Menderes Graben North Boundary 2" tectonicRegion="Active Shallow Crust">
