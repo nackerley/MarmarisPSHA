@@ -1,7 +1,8 @@
-# MarmarisPSHA
-Student Project: Probabilistic Seismic Hazard Assessment for Marmaris, Turkey
+# Probabilistic Seismic Hazard Assessment for Marmaris, Turkey
 
-Authors
+Project files for "Seismic Hazard Assessment" course at Istituto Universitario di Studi Superiori di Pavia
+
+## Authors
 - Nick Ackerley
 - Israrullah Habibi
 - Chrysanthi Tsioli
