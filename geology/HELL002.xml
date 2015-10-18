@@ -24,7 +24,7 @@
             </areaGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2.0</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.5" bValue="1.0" minMag="5.0" maxMag="6.5" />
+            <truncGutenbergRichterMFD aValue="3.64829174003" bValue="0.824894230167" minMag="3.2" maxMag="8.5" />
             <nodalPlaneDist>
                 <nodalPlane probability="1.0" strike="0.0" dip="45.0" rake="-90.0" />
             </nodalPlaneDist>
