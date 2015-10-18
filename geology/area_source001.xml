@@ -4,7 +4,7 @@
 
     <sourceModel name="Example Source Model Containing Area Source">
 
-        <areaSource id="1" name="Area Source" tectonicRegion="Active Shallow Crust">
+        <areaSource id="HELL002" name="Area Source" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
