@@ -9,11 +9,11 @@
             <logicTreeBranchSet uncertaintyType="gmpeModel" branchSetID="bs1"
                     applyToTectonicRegionType="Active Shallow Crust">
                 <logicTreeBranch branchID="b11">
- <uncertaintyModel>BooreAtkinson2008</uncertaintyModel>
+ <uncertaintyModel>AkkarEtAlRjb2014</uncertaintyModel>
                     <uncertaintyWeight>0.5</uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch branchID="b12">
- <uncertaintyModel>ChiouYoungs2008</uncertaintyModel>
+ <uncertaintyModel>BooreEtAl2014HighQ</uncertaintyModel>
                     <uncertaintyWeight>0.5</uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>
@@ -23,13 +23,13 @@
         <logicTreeBranchingLevel branchingLevelID="bl2">
 
             <logicTreeBranchSet uncertaintyType="gmpeModel" branchSetID="bs2"
-                    applyToTectonicRegionType="Stable Continental Crust">
+                    applyToTectonicRegionType="Interface subduction">
                 <logicTreeBranch branchID="b21">
- <uncertaintyModel>ToroEtAl2002</uncertaintyModel>
+ <uncertaintyModel>AbrahamsonEtAl2015SInter</uncertaintyModel>
                     <uncertaintyWeight>0.5</uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch branchID="b22">
- <uncertaintyModel>Campbell2003</uncertaintyModel>
+ <uncertaintyModel>YoungsEtAl1997SInter</uncertaintyModel>
                     <uncertaintyWeight>0.5</uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>
