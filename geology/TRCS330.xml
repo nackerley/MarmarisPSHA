@@ -21,7 +21,7 @@
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="5.91011227099" bValue="1.48406717007" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="5.91011227099" bValue="1.48406717007" minMag="4.5" maxMag="8.5"/>
             <rake>-66.0</rake>
         </simpleFaultSource>
 

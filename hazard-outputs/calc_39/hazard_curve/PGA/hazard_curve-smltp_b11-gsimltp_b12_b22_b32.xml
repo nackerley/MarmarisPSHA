@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml
+xmlns="http://openquake.org/xmlns/nrml/0.5"
+xmlns:gml="http://www.opengis.net/gml"
+>
+    <hazardCurves
+    IMT="PGA"
+    gsimTreePath="b12_b22_b32"
+    investigationTime="50.0"
+    sourceModelTreePath="b11"
+    >
+        <IMLs>
+            1.000000000E-02 1.500000000E-02 2.200000000E-02 3.300000000E-02 4.700000000E-02 6.800000000E-02 1.000000000E-01 1.500000000E-01 2.200000000E-01 3.300000000E-01 4.700000000E-01 6.800000000E-01 1.000000000E+00 1.500000000E+00 2.200000000E+00 3.300000000E+00
+        </IMLs>
+        <hazardCurve>
+            <gml:Point>
+                <gml:pos>
+                    28.25 36.85
+                </gml:pos>
+            </gml:Point>
+            <poEs>
+                1.000000000E+00 1.000000000E+00 1.000000000E+00 1.000000000E+00 1.000000000E+00 9.999999672E-01 9.998961370E-01 9.862594271E-01 8.469183923E-01 4.968860029E-01 2.222408739E-01 7.118112377E-02 1.552351757E-02 1.974494946E-03 1.144494793E-04 0.000000000E+00
+            </poEs>
+        </hazardCurve>
+    </hazardCurves>
+</nrml>

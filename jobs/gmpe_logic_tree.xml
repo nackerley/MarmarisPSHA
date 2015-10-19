@@ -9,11 +9,11 @@
             <logicTreeBranchSet uncertaintyType="gmpeModel" branchSetID="bs1"
                     applyToTectonicRegionType="Active Shallow Crust">
                 <logicTreeBranch branchID="b11">
- <uncertaintyModel>AkkarEtAlRjb2014</uncertaintyModel>
+					<uncertaintyModel>AkkarEtAlRjb2014</uncertaintyModel>
                     <uncertaintyWeight>0.5</uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch branchID="b12">
- <uncertaintyModel>BooreEtAl2014HighQ</uncertaintyModel>
+					<uncertaintyModel>BooreEtAl2014HighQ</uncertaintyModel>
                     <uncertaintyWeight>0.5</uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>
@@ -23,18 +23,33 @@
         <logicTreeBranchingLevel branchingLevelID="bl2">
 
             <logicTreeBranchSet uncertaintyType="gmpeModel" branchSetID="bs2"
-                    applyToTectonicRegionType="Interface subduction">
+                    applyToTectonicRegionType="Subduction Interface">
                 <logicTreeBranch branchID="b21">
- <uncertaintyModel>AbrahamsonEtAl2015SInter</uncertaintyModel>
+					<uncertaintyModel>AbrahamsonEtAl2015SInter</uncertaintyModel>
                     <uncertaintyWeight>0.5</uncertaintyWeight>
                 </logicTreeBranch>
                 <logicTreeBranch branchID="b22">
- <uncertaintyModel>YoungsEtAl1997SInter</uncertaintyModel>
+					<uncertaintyModel>YoungsEtAl1997SInter</uncertaintyModel>
                     <uncertaintyWeight>0.5</uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>
 
         </logicTreeBranchingLevel>
 
-    </logicTree>
+         <logicTreeBranchingLevel branchingLevelID="bl3">
+
+            <logicTreeBranchSet uncertaintyType="gmpeModel" branchSetID="bs3"
+                    applyToTectonicRegionType="Subduction IntraSlab">
+                <logicTreeBranch branchID="b31">
+					<uncertaintyModel>AbrahamsonEtAl2015SSlab</uncertaintyModel>
+                    <uncertaintyWeight>0.5</uncertaintyWeight>
+                </logicTreeBranch>
+                <logicTreeBranch branchID="b32">
+					<uncertaintyModel>YoungsEtAl1997SSlab</uncertaintyModel>
+                    <uncertaintyWeight>0.5</uncertaintyWeight>
+                </logicTreeBranch>
+            </logicTreeBranchSet>
+
+        </logicTreeBranchingLevel>
+   </logicTree>
 </nrml>

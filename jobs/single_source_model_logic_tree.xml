@@ -7,7 +7,7 @@
             <logicTreeBranchSet uncertaintyType="sourceModel"
                                 branchSetID="bs1">
                 <logicTreeBranch branchID="b11">
-                    <uncertaintyModel>../geology/MarmarisDangerousSources15_300km.xml</uncertaintyModel>
+                    <uncertaintyModel>../geology/CYPR001.xml</uncertaintyModel>
                     <uncertaintyWeight>1.0</uncertaintyWeight>
                 </logicTreeBranch>
             </logicTreeBranchSet>

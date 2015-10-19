@@ -20,7 +20,7 @@
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.40854445896" bValue="1.13687811624" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="4.40854445896" bValue="1.13687811624" minMag="4.5" maxMag="8.5"/>
             <rake>-72.0</rake>
         </simpleFaultSource>
 
@@ -42,7 +42,7 @@
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.40854445896" bValue="1.13687811624" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="4.40854445896" bValue="1.13687811624" minMag="4.5" maxMag="8.5"/>
             <rake>-56.0</rake>
         </simpleFaultSource>
 
@@ -72,7 +72,7 @@
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.07191536783" bValue="0.989430823573" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="4.07191536783" bValue="0.989430823573" minMag="4.5" maxMag="8.5"/>
             <rake>-100.0</rake>
         </simpleFaultSource>
 
@@ -93,7 +93,7 @@
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="3.6672707528" bValue="0.999492502627" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="3.6672707528" bValue="0.999492502627" minMag="4.5" maxMag="8.5"/>
             <rake>-102.0</rake>
         </simpleFaultSource>
 
@@ -123,7 +123,7 @@
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.46386120633" bValue="1.1098295708" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="4.46386120633" bValue="1.1098295708" minMag="4.5" maxMag="8.5"/>
             <rake>-70.0</rake>
         </simpleFaultSource>
 
@@ -142,7 +142,7 @@
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.5" maxMag="8.5"/>
             <rake>-61.0</rake>
         </simpleFaultSource>
 
@@ -185,7 +185,7 @@
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.5" maxMag="8.5"/>
             <rake>100.0</rake>
         </simpleFaultSource>
 
@@ -206,7 +206,7 @@
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="5.12452590694" bValue="1.28246257" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="5.12452590694" bValue="1.28246257" minMag="4.5" maxMag="8.5"/>
             <rake>-78.0</rake>
         </simpleFaultSource>
 
@@ -238,7 +238,7 @@
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="5.04488636044" bValue="1.19488371932" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="5.04488636044" bValue="1.19488371932" minMag="4.5" maxMag="8.5"/>
             <rake>-85.0</rake>
         </simpleFaultSource>
 
@@ -259,7 +259,7 @@
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="5.91011227099" bValue="1.48406717007" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="5.91011227099" bValue="1.48406717007" minMag="4.5" maxMag="8.5"/>
             <rake>-66.0</rake>
         </simpleFaultSource>
 
@@ -1053,7 +1053,7 @@
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2.0</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="5.25291409914" bValue="0.912297160505" minMag="4.0" maxMag="8.5" />
+            <truncGutenbergRichterMFD aValue="5.25291409914" bValue="0.912297160505" minMag="4.5" maxMag="8.5" />
 
             <rake>90.0</rake>
 
@@ -1079,7 +1079,7 @@
             </areaGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2.0</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="3.64829174003" bValue="0.824894230167" minMag="4.0" maxMag="8.5" />
+            <truncGutenbergRichterMFD aValue="3.64829174003" bValue="0.824894230167" minMag="4.5" maxMag="8.5" />
             <nodalPlaneDist>
                 <nodalPlane probability="1.0" strike="0.0" dip="45.0" rake="-90.0" />
             </nodalPlaneDist>
@@ -1412,7 +1412,7 @@
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2.0</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="4.98696662587" bValue="1.03674938895" minMag="4.0" maxMag="8.5" />
+            <truncGutenbergRichterMFD aValue="4.98696662587" bValue="1.03674938895" minMag="4.5" maxMag="8.5" />
 
             <rake>90.0</rake>
 
