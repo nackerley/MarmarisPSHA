@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+    <sourceModel name="$SOURCEMODELNAME">
+
+        <simpleFaultSource id="TRCS390" name="Aksu Thrust" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         30.788870  37.669070
+                         30.813503  37.581754
+                         30.838266  37.493979
+                         30.863028  37.406209
+                         30.887788  37.318443
+                         30.911846  37.230559
+                         30.959140  37.148884
+                         31.006425  37.067225
+                         31.060808  36.988451
+                         31.129895  36.917442
+                         31.198958  36.846458
+                         31.267998  36.775499
+                         31.340484  36.706824
+                         31.415525  36.639980
+                         31.490544  36.573167
+                         31.565533  36.506380
+                         31.640493  36.439619
+                         31.715647  36.373048
+                         31.790901  36.306599
+                         31.866182  36.240218
+                         31.941435  36.173863
+                         32.016658  36.107533
+                         32.091853  36.041229
+                         32.167019  35.974950
+                         32.242156  35.908696
+                         32.317264  35.842468
+                         32.392343  35.776265
+                    </gml:posList>
+                </gml:LineString>
+                <dip>40.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>30.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <rake>100.0</rake>
+        </simpleFaultSource>
+
+    </sourceModel>
+</nrml>

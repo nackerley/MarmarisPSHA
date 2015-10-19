@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+    <sourceModel name="$SOURCEMODELNAME">
+
+        <simpleFaultSource id="TRCS268" name="Golgelidag Horst East Boundary - Akalan" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         29.142908  37.131253
+                         29.209874  37.193150
+                         29.277870  37.255998
+                         29.326503  37.329377
+                         29.362743  37.407170
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <rake>282.0</rake>
+        </simpleFaultSource>
+
+    </sourceModel>
+</nrml>

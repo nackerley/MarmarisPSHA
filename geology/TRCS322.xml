@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+    <sourceModel name="$SOURCEMODELNAME">
+
+        <simpleFaultSource id="TRCS322" name="Gediz Graben South Boundary" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         28.752900  38.202553
+                         28.687599  38.220223
+                         28.577192  38.244542
+                         28.528798  38.326214
+                         28.436481  38.379802
+                         28.333675  38.420071
+                         28.230712  38.460181
+                         28.116718  38.472285
+                         28.005537  38.495497
+                         27.890452  38.495724
+                         27.776504  38.483135
+                         27.679165  38.435143
+                         27.574140  38.398510
+                         27.464794  38.370822
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <rake>290.0</rake>
+        </simpleFaultSource>
+
+    </sourceModel>
+</nrml>

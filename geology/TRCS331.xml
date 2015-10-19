@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+    <sourceModel name="$SOURCEMODELNAME">
+
+        <simpleFaultSource id="TRCS331" name="Buyuk Menderes Graben North Boundary 2" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         28.887451  37.959753
+                         28.800142  37.973093
+                         28.690473  37.970302
+                         28.588151  37.939115
+                         28.478494  37.937472
+                         28.369557  37.927517
+                         28.262055  37.910496
+                         28.154577  37.893480
+                         28.047122  37.876467
+                         27.939692  37.859457
+                         27.830153  37.857810
+                         27.721902  37.871174
+                         27.613632  37.884541
+                         27.520100  37.929660
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <rake>260.0</rake>
+        </simpleFaultSource>
+
+    </sourceModel>
+</nrml>

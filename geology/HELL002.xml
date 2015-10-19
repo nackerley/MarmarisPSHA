@@ -2,7 +2,7 @@
 <nrml xmlns:gml="http://www.opengis.net/gml"
       xmlns="http://openquake.org/xmlns/nrml/0.4">
 
-    <sourceModel name="Example Source Model Containing Area Source">
+    <sourceModel name="$SOURCEMODELNAME">
 
         <areaSource id="HELL002" name="Area Source" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
