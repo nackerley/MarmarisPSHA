@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+    <sourceModel name="Example Source Model Containing Area Source">
+
+        <areaSource id="1" name="Area Source" tectonicRegion="Active Shallow Crust">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                             30.80345794846812169 36.73225159542808171
+                             30.70001993778059202 37.29582940555327042
+                             31.40583224600136347 37.42640655987026577
+                             31.90476853284707914 36.29212068798539548
+                             30.80345794846812169 36.73225159542808171
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>10.0</lowerSeismoDepth>
+            </areaGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2.0</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.5" bValue="1.0" minMag="5.0" maxMag="6.5" />
+            <nodalPlaneDist>
+                <nodalPlane probability="1.0" strike="0.0" dip="45.0" rake="-90.0" />
+            </nodalPlaneDist>
+            <hypoDepthDist>
+                <hypoDepth probability="1." depth="200.0" />
+            </hypoDepthDist>
+        </areaSource>
+
+    </sourceModel>
+</nrml>
