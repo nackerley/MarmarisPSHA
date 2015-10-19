@@ -794,7 +794,7 @@
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2.0</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="5.0" maxMag="8.9" />
+            <truncGutenbergRichterMFD aValue="5.25291409914" bValue="0.912297160505" minMag="3.2" maxMag="8.5" />
 
             <rake>90.0</rake>
 
