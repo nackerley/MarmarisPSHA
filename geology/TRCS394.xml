@@ -16,11 +16,11 @@
                 </gml:LineString>
                 <dip>60.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+                <lowerSeismoDepth>25.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="4.40854445896" bValue="1.13687811624" minMag="4.0" maxMag="8.5"/>
             <rake>-72.0</rake>
         </simpleFaultSource>
 
