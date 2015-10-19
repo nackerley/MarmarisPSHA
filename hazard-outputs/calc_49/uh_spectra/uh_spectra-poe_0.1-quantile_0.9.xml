@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml
+xmlns="http://openquake.org/xmlns/nrml/0.5"
+xmlns:gml="http://www.opengis.net/gml"
+>
+    <uniformHazardSpectra
+    investigationTime="50.0"
+    poE="0.1"
+    quantileValue="0.9"
+    statistics="quantile"
+    >
+        <periods>
+            0.0 0.075 0.1 0.2 0.3 0.5 0.75 1.0 1.5 2.0 3.0 4.0
+        </periods>
+        <uhs>
+            <gml:Point>
+                <gml:pos>
+                    28.25 36.85
+                </gml:pos>
+            </gml:Point>
+            <IMLs>
+                0.610729307986 1.1049497537 1.30896330462 1.52280599564 1.27726691826 0.885738099756 0.627296104684 0.460005147232 0.290039325975 0.203434150744 0.121788901284 0.079983302434
+            </IMLs>
+        </uhs>
+    </uniformHazardSpectra>
+</nrml>

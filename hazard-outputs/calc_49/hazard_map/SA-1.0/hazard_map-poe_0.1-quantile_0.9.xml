@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml
+xmlns="http://openquake.org/xmlns/nrml/0.5"
+xmlns:gml="http://www.opengis.net/gml"
+>
+    <hazardMap
+    IMT="SA"
+    investigationTime="50.0"
+    poE="0.1"
+    quantileValue="0.9"
+    saDamping="5.0"
+    saPeriod="1.0"
+    statistics="quantile"
+    >
+        <node iml="0.460005147232" lat="36.85" lon="28.25"/>
+    </hazardMap>
+</nrml>
