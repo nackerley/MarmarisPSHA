@@ -18,7 +18,7 @@
                 </gml:LineString>
                 <dip>65.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+                <lowerSeismoDepth>25.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
