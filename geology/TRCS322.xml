@@ -31,7 +31,7 @@
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
             <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
-            <rake>290.0</rake>
+            <rake>-70.0</rake>
         </simpleFaultSource>
 
     </sourceModel>
