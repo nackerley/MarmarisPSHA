@@ -38,7 +38,7 @@
                 </gml:LineString>
                 <dip>65.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+                <lowerSeismoDepth>25.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
@@ -68,7 +68,7 @@
                 </gml:LineString>
                 <dip>50.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
@@ -119,7 +119,7 @@
                 </gml:LineString>
                 <dip>50.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
@@ -138,11 +138,11 @@
                 </gml:LineString>
                 <dip>60.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="4.09937598879" bValue="1.13247390631" minMag="4.0" maxMag="8.5"/>
             <rake>-61.0</rake>
         </simpleFaultSource>
 
@@ -181,11 +181,11 @@
                 </gml:LineString>
                 <dip>40.0</dip>
                 <upperSeismoDepth>1.0</upperSeismoDepth>
-                <lowerSeismoDepth>30.0</lowerSeismoDepth>
+                <lowerSeismoDepth>100.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <truncGutenbergRichterMFD aValue="4.4321858449" bValue="1.02799522776" minMag="4.0" maxMag="8.5"/>
             <rake>100.0</rake>
         </simpleFaultSource>
 
@@ -202,7 +202,7 @@
                 </gml:LineString>
                 <dip>50.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
@@ -234,7 +234,7 @@
                 </gml:LineString>
                 <dip>62.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>14.5</lowerSeismoDepth>
+                <lowerSeismoDepth>40.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
@@ -255,7 +255,7 @@
                 </gml:LineString>
                 <dip>50.0</dip>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+                <lowerSeismoDepth>25.0</lowerSeismoDepth>
             </simpleFaultGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2</ruptAspectRatio>
@@ -1059,7 +1059,7 @@
 
         </complexFaultSource>
 
-        <areaSource id="HELL002" name="Area Source" tectonicRegion="Active Shallow Crust">
+        <areaSource id="HELL002" name="Area Source" tectonicRegion="Subduction IntraSlab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1084,7 +1084,9 @@
                 <nodalPlane probability="1.0" strike="0.0" dip="45.0" rake="-90.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
-                <hypoDepth probability="1." depth="150.0" />
+                <hypoDepth probability="0.2" depth="60.0" />
+                <hypoDepth probability="0.6" depth="100.0" />
+                <hypoDepth probability="0.2" depth="140.0" />
             </hypoDepthDist>
         </areaSource>
 
@@ -1418,15 +1420,7 @@
 
         </complexFaultSource>
 
-    </sourceModel>
-</nrml>
-<?xml version='1.0' encoding='utf-8'?>
-<nrml xmlns:gml="http://www.opengis.net/gml"
-      xmlns="http://openquake.org/xmlns/nrml/0.4">
-
-    <sourceModel name="Example Source Model Containing Area Source">
-
-        <areaSource id="1" name="Area Source" tectonicRegion="Active Shallow Crust">
+        <areaSource id="CYPR002" name="Area Source" tectonicRegion="Subduction IntraSlab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1441,29 +1435,23 @@
                         </gml:LinearRing>
                     </gml:exterior>
                 </gml:Polygon>
-                <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>10.0</lowerSeismoDepth>
+                <upperSeismoDepth>50.0</upperSeismoDepth>
+                <lowerSeismoDepth>150.0</lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2.0</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.5" bValue="1.0" minMag="5.0" maxMag="6.5" />
+            <truncGutenbergRichterMFD aValue="4.5" bValue="1.0" minMag="4.0" maxMag="8.5" />
             <nodalPlaneDist>
                 <nodalPlane probability="1.0" strike="0.0" dip="45.0" rake="-90.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
-                <hypoDepth probability="1." depth="200.0" />
+                <hypoDepth probability="0.2" depth="60.0" />
+                <hypoDepth probability="0.6" depth="100.0" />
+                <hypoDepth probability="0.2" depth="140.0" />
             </hypoDepthDist>
         </areaSource>
 
-    </sourceModel>
-</nrml>
-<?xml version='1.0' encoding='utf-8'?>
-<nrml xmlns:gml="http://www.opengis.net/gml"
-      xmlns="http://openquake.org/xmlns/nrml/0.4">
-
-    <sourceModel name="Example Source Model Containing Area Source">
-
-        <areaSource id="1" name="Area Source" tectonicRegion="Active Shallow Crust">
+        <areaSource id="AREA001" name="Area Source" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1479,17 +1467,19 @@
                     </gml:exterior>
                 </gml:Polygon>
                 <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>30.0</lowerSeismoDepth>
+                <lowerSeismoDepth>40.0</lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2.0</ruptAspectRatio>
-            <truncGutenbergRichterMFD aValue="4.5" bValue="1.0" minMag="5.0" maxMag="6.5" />
+            <truncGutenbergRichterMFD aValue="4.5" bValue="1.0" minMag="4.0" maxMag="8.5" />
             <nodalPlaneDist>
                 <nodalPlane probability="1.0" strike="0.0" dip="45.0" rake="-90.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
-                <hypoDepth probability="1." depth="30.0" />
-            </hypoDepthDist>
+                <hypoDepth probability="0.2" depth="10.0" />
+                <hypoDepth probability="0.6" depth="20.0" />
+                <hypoDepth probability="0.2" depth="30.0" />
+             </hypoDepthDist>
         </areaSource>
 
     </sourceModel>

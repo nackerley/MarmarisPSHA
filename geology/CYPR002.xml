@@ -30,7 +30,7 @@
             </nodalPlaneDist>
             <hypoDepthDist>
                 <hypoDepth probability="0.2" depth="60.0" />
-                <hypoDepth probability="0.6" depth="150.0" />
+                <hypoDepth probability="0.6" depth="100.0" />
                 <hypoDepth probability="0.2" depth="140.0" />
             </hypoDepthDist>
         </areaSource>
