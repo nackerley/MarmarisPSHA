@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+    <sourceModel name="$SOURCEMODELNAME">
+
+        <simpleFaultSource id="TRCS396" name="Gokova Transfer Fault" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         27.980080  37.123780
+                         27.908233  37.052475
+                         27.828103  36.983772
+                         27.748006  36.915098
+                         27.667942  36.846452
+                         27.587912  36.777835
+                    </gml:posList>
+                </gml:LineString>
+                <dip>80.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <rake>354.0</rake>
+        </simpleFaultSource>
+
+    </sourceModel>
+</nrml>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+    <sourceModel name="$SOURCEMODELNAME">
+
+        <simpleFaultSource id="TRCS392" name="Gokova Oren Fault Zone 2" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         27.767171  37.002331
+                         27.831248  37.055221
+                         27.895345  37.108128
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <rake>309.0</rake>
+        </simpleFaultSource>
+
+    </sourceModel>
+</nrml>

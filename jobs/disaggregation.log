@@ -1,0 +1,266 @@
+[2015-10-19 22:45:38,498 hazard job #50 - PROGRESS MainProcess/16456] **  pre_executing (hazard)
+[2015-10-19 22:45:38,523 hazard job #50 - PROGRESS MainProcess/16456] **  initializing sites
+[2015-10-19 22:45:38,548 hazard job #50 - PROGRESS MainProcess/16456] **  initializing site collection
+[2015-10-19 22:45:38,573 hazard job #50 - PROGRESS MainProcess/16456] **  initializing sources
+[2015-10-19 22:45:38,770 hazard job #50 - CRITICAL MainProcess/16456] Traceback (most recent call last):
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 218, in run_calc
+    _do_run_calc(calculator, exports)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 254, in _do_run_calc
+    calc.pre_execute()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/classical/core.py", line 292, in pre_execute
+    weights = super(ClassicalHazardCalculator, self).pre_execute()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 156, in pre_execute
+    self.initialize_sources()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/performance.py", line 34, in newmeth
+    return method(self, *args)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 221, in initialize_sources
+    no_distribute=not parallel_source_splitting)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/readinput.py", line 483, in get_composite_source_model
+    in_memory=hasattr(processor, 'process')):
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/readinput.py", line 421, in get_source_models
+    fname, converter, apply_unc)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/source.py", line 230, in parse_source_model
+    src = converter.convert_node(src_node)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/sourceconverter.py", line 442, in convert_node
+    return convert_source(node)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/sourceconverter.py", line 580, in convert_simpleFaultSource
+    slip_list=slip_list)
+  File "/usr/local/src/python/anaconda3/envs/py27/lib/python2.7/contextlib.py", line 35, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/node.py", line 602, in context
+    raise_(etype, msg, tb)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/node.py", line 597, in context
+    yield node
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/sourceconverter.py", line 580, in convert_simpleFaultSource
+    slip_list=slip_list)
+  File "/home/nick/src/python/GEM/oq-hazardlib/openquake/hazardlib/source/simple_fault.py", line 126, in __init__
+    (rupture_mesh_spacing, min_mag))
+ValueError: node simpleFaultSource: mesh spacing 5.0 is too high to represent ruptures of magnitude 4.55, line 7 of /home/nick/Desktop/SeismicHazardAssessment/MarmarisPSHA/jobs/../geology/MarmarisDangerousSources15_300km.xml
+
+[2015-10-19 22:50:00,012 hazard job #51 - PROGRESS MainProcess/16619] **  pre_executing (hazard)
+[2015-10-19 22:50:00,037 hazard job #51 - PROGRESS MainProcess/16619] **  initializing sites
+[2015-10-19 22:50:00,062 hazard job #51 - PROGRESS MainProcess/16619] **  initializing site collection
+[2015-10-19 22:50:00,079 hazard job #51 - PROGRESS MainProcess/16619] **  initializing sources
+[2015-10-19 22:50:00,125 hazard job #51 - CRITICAL MainProcess/16619] Traceback (most recent call last):
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 218, in run_calc
+    _do_run_calc(calculator, exports)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 254, in _do_run_calc
+    calc.pre_execute()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/classical/core.py", line 292, in pre_execute
+    weights = super(ClassicalHazardCalculator, self).pre_execute()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 156, in pre_execute
+    self.initialize_sources()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/performance.py", line 34, in newmeth
+    return method(self, *args)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 221, in initialize_sources
+    no_distribute=not parallel_source_splitting)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/readinput.py", line 483, in get_composite_source_model
+    in_memory=hasattr(processor, 'process')):
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/readinput.py", line 421, in get_source_models
+    fname, converter, apply_unc)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/source.py", line 230, in parse_source_model
+    src = converter.convert_node(src_node)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/sourceconverter.py", line 442, in convert_node
+    return convert_source(node)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/sourceconverter.py", line 580, in convert_simpleFaultSource
+    slip_list=slip_list)
+  File "/usr/local/src/python/anaconda3/envs/py27/lib/python2.7/contextlib.py", line 35, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/node.py", line 602, in context
+    raise_(etype, msg, tb)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/node.py", line 597, in context
+    yield node
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/sourceconverter.py", line 580, in convert_simpleFaultSource
+    slip_list=slip_list)
+  File "/home/nick/src/python/GEM/oq-hazardlib/openquake/hazardlib/source/simple_fault.py", line 126, in __init__
+    (rupture_mesh_spacing, min_mag))
+ValueError: node simpleFaultSource: mesh spacing 5.0 is too high to represent ruptures of magnitude 4.55, line 7 of /home/nick/Desktop/SeismicHazardAssessment/MarmarisPSHA/jobs/../geology/MarmarisDangerousSources15_300km.xml
+
+[2015-10-19 22:51:11,585 hazard job #52 - PROGRESS MainProcess/16701] **  pre_executing (hazard)
+[2015-10-19 22:51:11,610 hazard job #52 - PROGRESS MainProcess/16701] **  initializing sites
+[2015-10-19 22:51:11,635 hazard job #52 - PROGRESS MainProcess/16701] **  initializing site collection
+[2015-10-19 22:51:11,660 hazard job #52 - PROGRESS MainProcess/16701] **  initializing sources
+[2015-10-19 22:51:11,704 hazard job #52 - CRITICAL MainProcess/16701] Traceback (most recent call last):
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 218, in run_calc
+    _do_run_calc(calculator, exports)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 254, in _do_run_calc
+    calc.pre_execute()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/classical/core.py", line 292, in pre_execute
+    weights = super(ClassicalHazardCalculator, self).pre_execute()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 156, in pre_execute
+    self.initialize_sources()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/performance.py", line 34, in newmeth
+    return method(self, *args)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/general.py", line 221, in initialize_sources
+    no_distribute=not parallel_source_splitting)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/readinput.py", line 483, in get_composite_source_model
+    in_memory=hasattr(processor, 'process')):
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/readinput.py", line 421, in get_source_models
+    fname, converter, apply_unc)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/source.py", line 230, in parse_source_model
+    src = converter.convert_node(src_node)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/sourceconverter.py", line 442, in convert_node
+    return convert_source(node)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/sourceconverter.py", line 580, in convert_simpleFaultSource
+    slip_list=slip_list)
+  File "/usr/local/src/python/anaconda3/envs/py27/lib/python2.7/contextlib.py", line 35, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/node.py", line 602, in context
+    raise_(etype, msg, tb)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/node.py", line 597, in context
+    yield node
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/sourceconverter.py", line 580, in convert_simpleFaultSource
+    slip_list=slip_list)
+  File "/home/nick/src/python/GEM/oq-hazardlib/openquake/hazardlib/source/simple_fault.py", line 126, in __init__
+    (rupture_mesh_spacing, min_mag))
+ValueError: node simpleFaultSource: mesh spacing 5.0 is too high to represent ruptures of magnitude 5.05, line 149 of /home/nick/Desktop/SeismicHazardAssessment/MarmarisPSHA/jobs/../geology/MarmarisDangerousSources15_300km_minMag5.xml
+
+[2015-10-19 22:51:45,188 hazard job #53 - PROGRESS MainProcess/16743] **  pre_executing (hazard)
+[2015-10-19 22:51:45,213 hazard job #53 - PROGRESS MainProcess/16743] **  initializing sites
+[2015-10-19 22:51:45,229 hazard job #53 - PROGRESS MainProcess/16743] **  initializing site collection
+[2015-10-19 22:51:45,246 hazard job #53 - PROGRESS MainProcess/16743] **  initializing sources
+[2015-10-19 22:51:45,343 hazard job #53 - WARNING MainProcess/16743] Processing 12 slow sources...
+[2015-10-19 22:51:45,355 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #1
+[2015-10-19 22:51:45,389 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #2
+[2015-10-19 22:51:45,399 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #3
+[2015-10-19 22:51:45,407 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #4
+[2015-10-19 22:51:45,422 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #5
+[2015-10-19 22:51:45,430 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #6
+[2015-10-19 22:51:45,438 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #7
+[2015-10-19 22:51:45,447 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #8
+[2015-10-19 22:51:45,455 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #9
+[2015-10-19 22:51:45,463 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #10
+[2015-10-19 22:51:45,472 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #11
+[2015-10-19 22:51:45,480 hazard job #53 - INFO MainProcess/16743] Submitting task filter_and_split #12
+[2015-10-19 22:51:45,488 hazard job #53 - INFO MainProcess/16743] Processing 3 fast sources...
+[2015-10-19 22:51:46,581 hazard job #53 - INFO MainProcess/16743] Sent 73.05 KB of data
+[2015-10-19 22:51:46,657 hazard job #53 - INFO MainProcess/16743] filter_and_split   8%
+[2015-10-19 22:51:46,674 hazard job #53 - INFO MainProcess/16743] filter_and_split  16%
+[2015-10-19 22:51:46,687 hazard job #53 - INFO MainProcess/16743] filter_and_split  25%
+[2015-10-19 22:51:46,699 hazard job #53 - INFO MainProcess/16743] filter_and_split  33%
+[2015-10-19 22:51:46,734 hazard job #53 - INFO MainProcess/16743] filter_and_split  41%
+[2015-10-19 22:51:47,363 hazard job #53 - INFO MainProcess/16743] filter_and_split  50%
+[2015-10-19 22:51:47,543 hazard job #53 - INFO MainProcess/16743] filter_and_split  58%
+[2015-10-19 22:51:48,462 hazard job #53 - INFO MainProcess/16743] filter_and_split  66%
+[2015-10-19 22:51:48,649 hazard job #53 - INFO MainProcess/16743] filter_and_split  75%
+[2015-10-19 22:51:49,660 hazard job #53 - INFO MainProcess/16743] filter_and_split  83%
+[2015-10-19 22:51:57,075 hazard job #53 - INFO MainProcess/16743] filter_and_split  91%
+[2015-10-19 22:51:59,300 hazard job #53 - INFO MainProcess/16743] filter_and_split 100%
+[2015-10-19 22:51:59,322 hazard job #53 - INFO MainProcess/16743] Received 138.5 MB of data
+[2015-10-19 22:52:02,856 hazard job #53 - PROGRESS MainProcess/16743] **  executing (hazard)
+[2015-10-19 22:57:10,737 hazard job #53 - PROGRESS MainProcess/16743] **  post_executing (hazard)
+[2015-10-19 22:57:10,745 hazard job #53 - PROGRESS MainProcess/16743] **  initializing realizations
+[2015-10-19 22:57:10,762 hazard job #53 - INFO MainProcess/16743] Creating 8 realization(s) for model ../geology/MarmarisDangerousSources15_300km_minMag5.xml, b11
+[2015-10-19 22:57:11,340 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 702||hazard_curve||Hazard Curve rlz-49-PGA, imt=PGA
+[2015-10-19 22:57:11,379 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 703||hazard_curve||Hazard Curve rlz-49-SA(0.1), imt=SA(0.1)
+[2015-10-19 22:57:11,413 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 704||hazard_curve||Hazard Curve rlz-49-SA(0.2), imt=SA(0.2)
+[2015-10-19 22:57:11,446 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 705||hazard_curve||Hazard Curve rlz-49-SA(0.5), imt=SA(0.5)
+[2015-10-19 22:57:11,479 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 706||hazard_curve||Hazard Curve rlz-49-SA(1.0), imt=SA(1.0)
+[2015-10-19 22:57:11,513 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 707||hazard_curve||Hazard Curve rlz-49-SA(2.0), imt=SA(2.0)
+[2015-10-19 22:57:11,546 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 708||hazard_curve||Hazard Curve rlz-49-SA(4.0), imt=SA(4.0)
+[2015-10-19 22:57:11,596 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 710||hazard_curve||Hazard Curve rlz-50-PGA, imt=PGA
+[2015-10-19 22:57:11,629 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 711||hazard_curve||Hazard Curve rlz-50-SA(0.1), imt=SA(0.1)
+[2015-10-19 22:57:11,663 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 712||hazard_curve||Hazard Curve rlz-50-SA(0.2), imt=SA(0.2)
+[2015-10-19 22:57:11,696 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 713||hazard_curve||Hazard Curve rlz-50-SA(0.5), imt=SA(0.5)
+[2015-10-19 22:57:11,730 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 714||hazard_curve||Hazard Curve rlz-50-SA(1.0), imt=SA(1.0)
+[2015-10-19 22:57:11,763 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 715||hazard_curve||Hazard Curve rlz-50-SA(2.0), imt=SA(2.0)
+[2015-10-19 22:57:11,796 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 716||hazard_curve||Hazard Curve rlz-50-SA(4.0), imt=SA(4.0)
+[2015-10-19 22:57:11,846 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 718||hazard_curve||Hazard Curve rlz-51-PGA, imt=PGA
+[2015-10-19 22:57:11,880 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 719||hazard_curve||Hazard Curve rlz-51-SA(0.1), imt=SA(0.1)
+[2015-10-19 22:57:11,913 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 720||hazard_curve||Hazard Curve rlz-51-SA(0.2), imt=SA(0.2)
+[2015-10-19 22:57:11,946 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 721||hazard_curve||Hazard Curve rlz-51-SA(0.5), imt=SA(0.5)
+[2015-10-19 22:57:11,980 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 722||hazard_curve||Hazard Curve rlz-51-SA(1.0), imt=SA(1.0)
+[2015-10-19 22:57:12,013 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 723||hazard_curve||Hazard Curve rlz-51-SA(2.0), imt=SA(2.0)
+[2015-10-19 22:57:12,047 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 724||hazard_curve||Hazard Curve rlz-51-SA(4.0), imt=SA(4.0)
+[2015-10-19 22:57:12,096 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 726||hazard_curve||Hazard Curve rlz-52-PGA, imt=PGA
+[2015-10-19 22:57:12,130 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 727||hazard_curve||Hazard Curve rlz-52-SA(0.1), imt=SA(0.1)
+[2015-10-19 22:57:12,163 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 728||hazard_curve||Hazard Curve rlz-52-SA(0.2), imt=SA(0.2)
+[2015-10-19 22:57:12,197 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 729||hazard_curve||Hazard Curve rlz-52-SA(0.5), imt=SA(0.5)
+[2015-10-19 22:57:12,230 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 730||hazard_curve||Hazard Curve rlz-52-SA(1.0), imt=SA(1.0)
+[2015-10-19 22:57:12,263 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 731||hazard_curve||Hazard Curve rlz-52-SA(2.0), imt=SA(2.0)
+[2015-10-19 22:57:12,297 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 732||hazard_curve||Hazard Curve rlz-52-SA(4.0), imt=SA(4.0)
+[2015-10-19 22:57:12,380 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 734||hazard_curve||Hazard Curve rlz-53-PGA, imt=PGA
+[2015-10-19 22:57:12,447 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 735||hazard_curve||Hazard Curve rlz-53-SA(0.1), imt=SA(0.1)
+[2015-10-19 22:57:12,480 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 736||hazard_curve||Hazard Curve rlz-53-SA(0.2), imt=SA(0.2)
+[2015-10-19 22:57:12,513 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 737||hazard_curve||Hazard Curve rlz-53-SA(0.5), imt=SA(0.5)
+[2015-10-19 22:57:12,547 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 738||hazard_curve||Hazard Curve rlz-53-SA(1.0), imt=SA(1.0)
+[2015-10-19 22:57:12,580 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 739||hazard_curve||Hazard Curve rlz-53-SA(2.0), imt=SA(2.0)
+[2015-10-19 22:57:12,613 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 740||hazard_curve||Hazard Curve rlz-53-SA(4.0), imt=SA(4.0)
+[2015-10-19 22:57:12,664 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 742||hazard_curve||Hazard Curve rlz-54-PGA, imt=PGA
+[2015-10-19 22:57:12,697 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 743||hazard_curve||Hazard Curve rlz-54-SA(0.1), imt=SA(0.1)
+[2015-10-19 22:57:12,730 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 744||hazard_curve||Hazard Curve rlz-54-SA(0.2), imt=SA(0.2)
+[2015-10-19 22:57:12,764 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 745||hazard_curve||Hazard Curve rlz-54-SA(0.5), imt=SA(0.5)
+[2015-10-19 22:57:12,797 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 746||hazard_curve||Hazard Curve rlz-54-SA(1.0), imt=SA(1.0)
+[2015-10-19 22:57:12,830 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 747||hazard_curve||Hazard Curve rlz-54-SA(2.0), imt=SA(2.0)
+[2015-10-19 22:57:12,864 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 748||hazard_curve||Hazard Curve rlz-54-SA(4.0), imt=SA(4.0)
+[2015-10-19 22:57:12,914 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 750||hazard_curve||Hazard Curve rlz-55-PGA, imt=PGA
+[2015-10-19 22:57:12,947 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 751||hazard_curve||Hazard Curve rlz-55-SA(0.1), imt=SA(0.1)
+[2015-10-19 22:57:12,980 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 752||hazard_curve||Hazard Curve rlz-55-SA(0.2), imt=SA(0.2)
+[2015-10-19 22:57:13,014 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 753||hazard_curve||Hazard Curve rlz-55-SA(0.5), imt=SA(0.5)
+[2015-10-19 22:57:13,047 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 754||hazard_curve||Hazard Curve rlz-55-SA(1.0), imt=SA(1.0)
+[2015-10-19 22:57:13,080 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 755||hazard_curve||Hazard Curve rlz-55-SA(2.0), imt=SA(2.0)
+[2015-10-19 22:57:13,114 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 756||hazard_curve||Hazard Curve rlz-55-SA(4.0), imt=SA(4.0)
+[2015-10-19 22:57:13,164 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 758||hazard_curve||Hazard Curve rlz-56-PGA, imt=PGA
+[2015-10-19 22:57:13,197 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 759||hazard_curve||Hazard Curve rlz-56-SA(0.1), imt=SA(0.1)
+[2015-10-19 22:57:13,231 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 760||hazard_curve||Hazard Curve rlz-56-SA(0.2), imt=SA(0.2)
+[2015-10-19 22:57:13,264 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 761||hazard_curve||Hazard Curve rlz-56-SA(0.5), imt=SA(0.5)
+[2015-10-19 22:57:13,297 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 762||hazard_curve||Hazard Curve rlz-56-SA(1.0), imt=SA(1.0)
+[2015-10-19 22:57:13,331 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 763||hazard_curve||Hazard Curve rlz-56-SA(2.0), imt=SA(2.0)
+[2015-10-19 22:57:13,364 hazard job #53 - INFO MainProcess/16743] saving 1 hazard curves for 764||hazard_curve||Hazard Curve rlz-56-SA(4.0), imt=SA(4.0)
+[2015-10-19 22:57:13,390 hazard job #53 - INFO MainProcess/16743] 3 epsilon bins from -3.0 to 3.0
+[2015-10-19 22:57:13,569 hazard job #53 - INFO MainProcess/16743] 7 mag bins from 5.05 to 8.45
+[2015-10-19 22:57:13,581 hazard job #53 - INFO MainProcess/16743] 20 dist bins from 0.0 to 200.0
+[2015-10-19 22:57:13,589 hazard job #53 - INFO MainProcess/16743] 43 lon bins from 26.2715966016 to 30.4950211066
+[2015-10-19 22:57:13,597 hazard job #53 - INFO MainProcess/16743] 43 lat bins from 35.3015206791 to 38.6321350015
+[2015-10-19 22:57:13,609 hazard job #53 - INFO MainProcess/16743] 7 mag bins from 5.05 to 8.45
+[2015-10-19 22:57:13,614 hazard job #53 - INFO MainProcess/16743] 20 dist bins from 0.0 to 200.0
+[2015-10-19 22:57:13,623 hazard job #53 - INFO MainProcess/16743] 43 lon bins from 26.2715966016 to 30.4950211066
+[2015-10-19 22:57:13,631 hazard job #53 - INFO MainProcess/16743] 43 lat bins from 35.3015206791 to 38.6321350015
+[2015-10-19 22:57:13,643 hazard job #53 - INFO MainProcess/16743] 7 mag bins from 5.05 to 8.45
+[2015-10-19 22:57:13,648 hazard job #53 - INFO MainProcess/16743] 20 dist bins from 0.0 to 200.0
+[2015-10-19 22:57:13,656 hazard job #53 - INFO MainProcess/16743] 43 lon bins from 26.2715966016 to 30.4950211066
+[2015-10-19 22:57:13,664 hazard job #53 - INFO MainProcess/16743] 43 lat bins from 35.3015206791 to 38.6321350015
+[2015-10-19 22:57:13,672 hazard job #53 - PROGRESS MainProcess/16743] **  Submitting task compute_disagg #1
+[2015-10-19 22:57:20,533 hazard job #53 - INFO MainProcess/16743] Collecting bins from 2361 ruptures close to <Latitude=36.850000, Longitude=28.250000, Depth=0.0000>
+[2015-10-20 00:01:34,883 hazard job #53 - PROGRESS MainProcess/16743] **  Submitting task compute_disagg #2
+[2015-10-20 00:02:03,580 hazard job #53 - INFO MainProcess/16743] Collecting bins from 43335 ruptures close to <Latitude=36.850000, Longitude=28.250000, Depth=0.0000>
+[2015-10-20 02:40:10,550 hazard job #53 - PROGRESS MainProcess/16743] **  Submitting task compute_disagg #3
+[2015-10-20 02:40:41,670 hazard job #53 - INFO MainProcess/16743] Collecting bins from 45491 ruptures close to <Latitude=36.850000, Longitude=28.250000, Depth=0.0000>
+[2015-10-20 03:00:12,049 hazard job #53 - PROGRESS MainProcess/16743] **  compute_disagg  33%
+[2015-10-20 03:00:12,105 hazard job #53 - PROGRESS MainProcess/16743] **  compute_disagg  66%
+[2015-10-20 03:00:12,249 hazard job #53 - CRITICAL MainProcess/16743] Traceback (most recent call last):
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 218, in run_calc
+    _do_run_calc(calculator, exports)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/engine.py", line 260, in _do_run_calc
+    calc.post_execute(result)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/disaggregation/core.py", line 380, in post_execute
+    self.full_disaggregation()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/performance.py", line 34, in newmeth
+    return method(self, *args)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/disaggregation/core.py", line 376, in full_disaggregation
+    self.save_disagg_results(res.reduce(self.agg_result))
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/parallel.py", line 374, in reduce
+    agg_result = reduce(agg_and_percent, self.results, acc)
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/parallel.py", line 367, in agg_and_percent
+    raise RuntimeError(val)
+RuntimeError: 
+  File "/home/nick/src/python/GEM/oq-risklib/openquake/commonlib/parallel.py", line 109, in safely_call
+    res = func(*args), None, args[-1] if mon else DummyMonitor()
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/disaggregation/core.py", line 245, in compute_disagg
+    hc.num_epsilon_bins, monitor)
+  File "/home/nick/src/python/GEM/oq-engine/openquake/engine/calculators/hazard/disaggregation/core.py", line 100, in _collect_bins_data
+    truncation_level, n_epsilons)
+  File "/home/nick/src/python/GEM/oq-hazardlib/openquake/hazardlib/gsim/base.py", line 411, in disaggregate_poe
+    distribution.cdf(epsilons[:-1]))
+  File "/usr/local/src/python/anaconda3/envs/py27/lib/python2.7/site-packages/scipy/stats/_distn_infrastructure.py", line 452, in cdf
+    return self.dist.cdf(x, *self.args, **self.kwds)
+  File "/usr/local/src/python/anaconda3/envs/py27/lib/python2.7/site-packages/scipy/stats/_distn_infrastructure.py", line 1680, in cdf
+    goodargs = argsreduce(cond, *((x,)+args))
+  File "/usr/local/src/python/anaconda3/envs/py27/lib/python2.7/site-packages/scipy/stats/_distn_infrastructure.py", line 591, in argsreduce
+    newargs = np.atleast_1d(*args)
+  File "/usr/local/src/python/anaconda3/envs/py27/lib/python2.7/site-packages/numpy/core/shape_base.py", line 49, in atleast_1d
+    ary = asanyarray(ary)
+  File "/usr/local/src/python/anaconda3/envs/py27/lib/python2.7/site-packages/numpy/core/numeric.py", line 512, in asanyarray
+    return array(a, dtype, copy=False, order=order, subok=True)
+KeyboardInterrupt: 
+

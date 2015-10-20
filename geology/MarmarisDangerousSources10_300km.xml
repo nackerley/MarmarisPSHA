@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+    <sourceModel name="Top 10 dangerous sources within 300 km of Marmaris">
+
+        <simpleFaultSource id="TRCS394" name="Datca Horst North Boundary 1" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         27.653862  36.814250
+                         27.772547  36.818590
+                         27.891225  36.822930
+                         28.009910  36.827270
+                    </gml:posList>
+                </gml:LineString>
+                <dip>60.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>25.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.40854445896" bValue="1.13687811624" minMag="4.5" maxMag="8.5"/>
+            <rake>-72.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="TRCS391" name="Gokova Oren Fault Zone 1" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         28.482110  37.097988
+                         28.383736  37.065655
+                         28.269286  37.050946
+                         28.155027  37.035429
+                         28.041698  37.054831
+                         27.927657  37.038303
+                    </gml:posList>
+                </gml:LineString>
+                <dip>65.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>25.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.40854445896" bValue="1.13687811624" minMag="4.5" maxMag="8.5"/>
+            <rake>-56.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="TRCS331" name="Buyuk Menderes Graben North Boundary 2" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         28.887451  37.959753
+                         28.800142  37.973093
+                         28.690473  37.970302
+                         28.588151  37.939115
+                         28.478494  37.937472
+                         28.369557  37.927517
+                         28.262055  37.910496
+                         28.154577  37.893480
+                         28.047122  37.876467
+                         27.939692  37.859457
+                         27.830153  37.857810
+                         27.721902  37.871174
+                         27.613632  37.884541
+                         27.520100  37.929660
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.07191536783" bValue="0.989430823573" minMag="4.5" maxMag="8.5"/>
+            <rake>-100.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="TRCS271" name="Golgelidag Horst West Boundary - Tavas" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         29.145049  37.612877
+                         29.076734  37.569184
+                         29.028499  37.480449
+                         28.926962  37.427156
+                         28.834061  37.364785
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="3.6672707528" bValue="0.999492502627" minMag="4.5" maxMag="8.5"/>
+            <rake>-102.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="TRCS322" name="Gediz Graben South Boundary" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         28.752900  38.202553
+                         28.687599  38.220223
+                         28.577192  38.244542
+                         28.528798  38.326214
+                         28.436481  38.379802
+                         28.333675  38.420071
+                         28.230712  38.460181
+                         28.116718  38.472285
+                         28.005537  38.495497
+                         27.890452  38.495724
+                         27.776504  38.483135
+                         27.679165  38.435143
+                         27.574140  38.398510
+                         27.464794  38.370822
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.46386120633" bValue="1.1098295708" minMag="4.5" maxMag="8.5"/>
+            <rake>-70.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="TRCS393" name="Gokova Oren Fault Zone 3" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         27.748028  37.010324
+                         27.640845  36.990370
+                         27.510022  36.990547
+                    </gml:posList>
+                </gml:LineString>
+                <dip>60.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.09937598879" bValue="1.13247390631" minMag="4.5" maxMag="8.5"/>
+            <rake>-61.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="TRCS390" name="Aksu Thrust" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         30.788870  37.669070
+                         30.813503  37.581754
+                         30.838266  37.493979
+                         30.863028  37.406209
+                         30.887788  37.318443
+                         30.911846  37.230559
+                         30.959140  37.148884
+                         31.006425  37.067225
+                         31.060808  36.988451
+                         31.129895  36.917442
+                         31.198958  36.846458
+                         31.267998  36.775499
+                         31.340484  36.706824
+                         31.415525  36.639980
+                         31.490544  36.573167
+                         31.565533  36.506380
+                         31.640493  36.439619
+                         31.715647  36.373048
+                         31.790901  36.306599
+                         31.866182  36.240218
+                         31.941435  36.173863
+                         32.016658  36.107533
+                         32.091853  36.041229
+                         32.167019  35.974950
+                         32.242156  35.908696
+                         32.317264  35.842468
+                         32.392343  35.776265
+                    </gml:posList>
+                </gml:LineString>
+                <dip>40.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>100.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.4321858449" bValue="1.02799522776" minMag="4.5" maxMag="8.5"/>
+            <rake>100.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="TRCS268" name="Golgelidag Horst East Boundary - Akalan" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         29.142908  37.131253
+                         29.209874  37.193150
+                         29.277870  37.255998
+                         29.326503  37.329377
+                         29.362743  37.407170
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="5.12452590694" bValue="1.28246257" minMag="4.5" maxMag="8.5"/>
+            <rake>-78.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="TRCS913" name="Ula-Oren" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         27.391798  36.936121
+                         27.471934  36.951685
+                         27.529764  36.959467
+                         27.583464  36.962710
+                         27.641702  36.969429
+                         27.694344  36.976553
+                         27.742998  36.980656
+                         27.791652  36.984758
+                         27.884948  36.995077
+                         27.932145  37.000065
+                         27.979342  37.005052
+                         28.039246  37.010039
+                         28.099150  37.015026
+                         28.171762  37.023576
+                         28.244370  37.036400
+                         28.329690  37.049224
+                    </gml:posList>
+                </gml:LineString>
+                <dip>62.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>40.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="5.04488636044" bValue="1.19488371932" minMag="4.5" maxMag="8.5"/>
+            <rake>-85.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="TRCS330" name="Buyuk Menderes Graben North Boundary 1" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         29.184380  37.860040
+                         29.107107  37.924241
+                         29.027683  37.990228
+                         28.937772  38.047317
+                         28.825182  38.067747
+                    </gml:posList>
+                </gml:LineString>
+                <dip>50.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>25.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="5.91011227099" bValue="1.48406717007" minMag="4.5" maxMag="8.5"/>
+            <rake>-66.0</rake>
+        </simpleFaultSource>
+
+    </sourceModel>
+</nrml>

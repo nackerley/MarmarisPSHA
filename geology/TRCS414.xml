@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+
+    <sourceModel name="$SOURCEMODELNAME">
+
+        <simpleFaultSource id="TRCS414" name="Mugla Yatagan Fault 3" tectonicRegion="Active Shallow Crust">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                         28.543680  37.131547
+                         28.472950  37.175540
+                         28.402194  37.219549
+                    </gml:posList>
+                </gml:LineString>
+                <dip>80.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>13.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>2</ruptAspectRatio>
+            <truncGutenbergRichterMFD aValue="4.0" bValue="1.0" minMag="4.0" maxMag="8.5"/>
+            <rake>212.0</rake>
+        </simpleFaultSource>
+
+    </sourceModel>
+</nrml>

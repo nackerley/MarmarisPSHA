@@ -1,0 +1,62 @@
+# smlt_path=b11,gsimlt_path=b12_b22_b31,imt=SA,investigation_time=50.0,sa_period=2.0,sa_damping=5.0,lon=28.25,lat=36.85,poe=0.1,iml=0.1888716578
+Lon,Lat,TRT,poe
+26.5,35.5,Subduction Interface,0.0005152792852
+26.5,35.5,Subduction IntraSlab,0.0
+26.5,35.5,Active Shallow Crust,0.0
+26.5,36.5,Subduction Interface,0.0
+26.5,36.5,Subduction IntraSlab,0.004233545254
+26.5,36.5,Active Shallow Crust,0.0
+26.5,37.5,Subduction Interface,0.0
+26.5,37.5,Subduction IntraSlab,0.0
+26.5,37.5,Active Shallow Crust,0.0
+26.5,38.5,Subduction Interface,0.0
+26.5,38.5,Subduction IntraSlab,0.0
+26.5,38.5,Active Shallow Crust,0.0
+27.5,35.5,Subduction Interface,0.003776617434
+27.5,35.5,Subduction IntraSlab,0.0
+27.5,35.5,Active Shallow Crust,0.0
+27.5,36.5,Subduction Interface,0.00274996369
+27.5,36.5,Subduction IntraSlab,0.009542631071
+27.5,36.5,Active Shallow Crust,0.002374700091
+27.5,37.5,Subduction Interface,0.0
+27.5,37.5,Subduction IntraSlab,0.0
+27.5,37.5,Active Shallow Crust,0.001054427474
+27.5,38.5,Subduction Interface,0.0
+27.5,38.5,Subduction IntraSlab,0.0
+27.5,38.5,Active Shallow Crust,7.004670187e-07
+28.5,35.5,Subduction Interface,0.0
+28.5,35.5,Subduction IntraSlab,0.0
+28.5,35.5,Active Shallow Crust,0.0
+28.5,36.5,Subduction Interface,0.01381258091
+28.5,36.5,Subduction IntraSlab,0.0
+28.5,36.5,Active Shallow Crust,0.04511844333
+28.5,37.5,Subduction Interface,0.0
+28.5,37.5,Subduction IntraSlab,0.0
+28.5,37.5,Active Shallow Crust,0.006282352929
+28.5,38.5,Subduction Interface,0.0
+28.5,38.5,Subduction IntraSlab,0.0
+28.5,38.5,Active Shallow Crust,0.0001292744698
+29.5,35.5,Subduction Interface,0.0
+29.5,35.5,Subduction IntraSlab,0.0
+29.5,35.5,Active Shallow Crust,0.0
+29.5,36.5,Subduction Interface,0.001794858151
+29.5,36.5,Subduction IntraSlab,0.0
+29.5,36.5,Active Shallow Crust,0.0005529473942
+29.5,37.5,Subduction Interface,0.0
+29.5,37.5,Subduction IntraSlab,0.0
+29.5,37.5,Active Shallow Crust,0.0007027107395
+29.5,38.5,Subduction Interface,0.0
+29.5,38.5,Subduction IntraSlab,0.0
+29.5,38.5,Active Shallow Crust,0.0
+30.5,35.5,Subduction Interface,0.0
+30.5,35.5,Subduction IntraSlab,0.0
+30.5,35.5,Active Shallow Crust,0.0
+30.5,36.5,Subduction Interface,0.0001359357671
+30.5,36.5,Subduction IntraSlab,3.005098356e-06
+30.5,36.5,Active Shallow Crust,0.000296911285
+30.5,37.5,Subduction Interface,0.0
+30.5,37.5,Subduction IntraSlab,0.0
+30.5,37.5,Active Shallow Crust,0.000233973442
+30.5,38.5,Subduction Interface,0.0
+30.5,38.5,Subduction IntraSlab,0.0
+30.5,38.5,Active Shallow Crust,0.0
