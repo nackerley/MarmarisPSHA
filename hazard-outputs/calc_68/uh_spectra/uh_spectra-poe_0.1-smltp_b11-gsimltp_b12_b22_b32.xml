@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml
+xmlns="http://openquake.org/xmlns/nrml/0.5"
+xmlns:gml="http://www.opengis.net/gml"
+>
+    <uniformHazardSpectra
+    gsimTreePath="b12_b22_b32"
+    investigationTime="50.0"
+    poE="0.1"
+    sourceModelTreePath="b11"
+    >
+        <periods>
+            0.0 0.075 0.1 0.2 0.3 0.5 0.75 1.0 1.5 2.0 3.0 4.0
+        </periods>
+        <uhs>
+            <gml:Point>
+                <gml:pos>
+                    28.25 36.85
+                </gml:pos>
+            </gml:Point>
+            <IMLs>
+                0.520620762029 0.92652300962 1.03723218996 1.16453619684 1.06863231983 0.753594137902 0.548763904804 0.391201750208 0.234381787733 0.164343999869 0.107418858214 0.0689842406953
+            </IMLs>
+        </uhs>
+    </uniformHazardSpectra>
+</nrml>

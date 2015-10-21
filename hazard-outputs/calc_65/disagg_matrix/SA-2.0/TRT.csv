@@ -1,0 +1,5 @@
+# smlt_path=b11,gsimlt_path=b12_b22_b32,imt=SA,investigation_time=50.0,sa_period=2.0,sa_damping=5.0,lon=28.25,lat=36.85,poe=0.1,iml=0.1723835817
+TRT,poe
+Subduction Interface,0.02834266241
+Subduction IntraSlab,0.03767714562
+Active Shallow Crust,0.02841828967
